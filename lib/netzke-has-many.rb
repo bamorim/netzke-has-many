@@ -1,0 +1,1 @@
+require File.join('netzke','has_many')
