@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "netzke-core"
   gem.add_dependency "netzke-basepack"
-  gem.add_dependency "active-support"
+  gem.add_dependency "activesupport"
 
   gem.add_development_dependency 'rake'
 

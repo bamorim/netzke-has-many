@@ -19,7 +19,7 @@ module Netzke
             end
 
             component "#{many}_window" do |c|
-              c.klass = ManyWindow
+              c.klass = Window
               c.one_id = component_session["selected_#{config["model"].underscore}_id"]
               c.one_name = "#{config["model"].underscore}_id".to_sym
               c.grid_klass = grid_klass
